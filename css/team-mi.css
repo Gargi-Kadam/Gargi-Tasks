@@ -1,0 +1,93 @@
+/* Body background */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #007bff, #001f3f);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* --- Logo Section --- */
+  .team-logo-section {
+    background: linear-gradient(to right, #6ec1e4, #eaf6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .team-logo {
+    width: 80%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+  
+  /* --- Section Titles --- */
+  .star-players h2,
+  .team-members h2,
+  .team-info h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  section {
+    padding: 40px 10%;
+  }
+  
+  /* --- Players Grid --- */
+  .players-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  /* --- Player Card --- */
+  .player-card {
+    background: linear-gradient(145deg, #a2d4f0, #d0efff);
+    border: 2px solid #ffffff20;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 240px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Player images */
+  .player-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Player name */
+  .player-card h3 {
+    font-size: 1.2rem;
+    color: #002147;
+  }
+  
+  /* --- Hover Effects --- */
+  .player-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* --- Team Info Sections --- */
+  .team-info p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    line-height: 1.6;
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+  
